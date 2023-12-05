@@ -1,6 +1,6 @@
 # Japanese OCR Screenshot Capture / Browser Extension
 
-This customized fork of the extension is designed to extract Japanese text from images and videos.
+This customized fork of the extension is designed to extract Japanese text from images and videos. It also works with other languages.
 
 The primary focus is to create selectable text with [Yomichan](https://chromewebstore.google.com/detail/yomichan/ogmnaimimemjmbakcfefmnahgdfhfami) for efficient dictionary lookup.
 
