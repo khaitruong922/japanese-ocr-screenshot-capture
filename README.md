@@ -1,4 +1,4 @@
-# Manabu OCR Screenshot Capture / Browser Extension
+# Japanese OCR Screenshot Capture / Browser Extension
 
 This customized fork of the extension is designed to extract Japanese text from images and videos.
 
