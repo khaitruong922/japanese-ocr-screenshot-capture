@@ -12,6 +12,10 @@ which will create a popup with extracted text on top of the selected area.
 
 ## Demo
 
+## Installation / Usage
+
+See below
+
 **Below is the original README.md**
 
 # Screenshot Capture / Browser Extension
