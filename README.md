@@ -11,6 +11,9 @@ has been modified to utilize [Manabu OCR](https://www.manabu.sg/ocr),
 which will create a popup with extracted text on top of the selected area.
 
 ## Demo
+![image](https://github.com/tsuu2092/manabu-ocr-screenshot-capture/assets/56820749/9fac78c6-224b-485f-81af-ae31d61a3ad5)
+
+![image](https://github.com/tsuu2092/manabu-ocr-screenshot-capture/assets/56820749/5f404343-1bed-444b-b1d9-f3f4f10f5b6c)
 
 ## Installation / Usage
 
