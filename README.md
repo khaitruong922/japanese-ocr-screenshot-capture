@@ -1,7 +1,22 @@
+# Manabu OCR Screenshot Capture / Browser Extension
+
+This customized fork of the extension is designed to extract Japanese text from images and videos.
+
+The primary focus is to create selectable text with [Yomichan](https://chromewebstore.google.com/detail/yomichan/ogmnaimimemjmbakcfefmnahgdfhfami) for efficient dictionary lookup.
+
+## Modifications
+
+The default "To File" save format, originally intended for downloading selected image areas,
+has been modified to utilize [Manabu OCR](https://www.manabu.sg/ocr),
+which will create a popup with extracted text on top of the selected area.
+
+## Demo
+
+**Below is the original README.md**
 
 # Screenshot Capture / Browser Extension
 
-**Install: [Chrome]** / **[Edge]** / **[Opera]**  / **[Brave]** / **[Chromium]** / **[Vivaldi]**
+**Install: [Chrome]** / **[Edge]** / **[Opera]** / **[Brave]** / **[Chromium]** / **[Vivaldi]**
 
 # Features
 
@@ -165,13 +180,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
-  [chrome]: https://chromewebstore.google.com/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc
-  [edge]: https://microsoftedge.microsoft.com/addons/detail/screenshot-capture/fjmanmejbodljeaicnkgdgibdbeheela
-  [opera]: https://chromewebstore.google.com/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc
-  [brave]: https://chromewebstore.google.com/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc
-  [chromium]: https://chromewebstore.google.com/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc
-  [vivaldi]: https://chromewebstore.google.com/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc
-
-  [releases]: https://github.com/simov/screenshot-capture/releases
-  [mv2]: https://github.com/simov/screenshot-capture/tree/mv2
+[chrome]: https://chromewebstore.google.com/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc
+[edge]: https://microsoftedge.microsoft.com/addons/detail/screenshot-capture/fjmanmejbodljeaicnkgdgibdbeheela
+[opera]: https://chromewebstore.google.com/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc
+[brave]: https://chromewebstore.google.com/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc
+[chromium]: https://chromewebstore.google.com/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc
+[vivaldi]: https://chromewebstore.google.com/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc
+[releases]: https://github.com/simov/screenshot-capture/releases
+[mv2]: https://github.com/simov/screenshot-capture/tree/mv2
