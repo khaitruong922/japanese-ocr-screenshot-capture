@@ -1,31 +1,31 @@
 {
   "manifest_version": 3,
-  "name"            : "Screenshot Capture",
-  "version"         : "3.1",
-  "description"     : "Capture viewport, crop & save to file, copy to clipboard as binary or data URL",
+  "name": "Japanese OCR Screenshot Capture",
+  "version": "3.1",
+  "description": "Extract Japanese text from images and videos.",
 
   "homepage_url": "https://chromewebstore.google.com/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc",
 
   "icons": {
-    "16" : "/icons/default/16x16.png",
-    "19" : "/icons/default/19x19.png",
-    "38" : "/icons/default/38x38.png",
-    "48" : "/icons/default/48x48.png",
+    "16": "/icons/default/16x16.png",
+    "19": "/icons/default/19x19.png",
+    "38": "/icons/default/38x38.png",
+    "48": "/icons/default/48x48.png",
     "128": "/icons/default/128x128.png"
   },
 
   "action": {
     "default_icon": {
-      "16" : "/icons/default/16x16.png",
-      "19" : "/icons/default/19x19.png",
-      "38" : "/icons/default/38x38.png",
-      "48" : "/icons/default/48x48.png",
-      "128" : "/icons/default/128x128.png"
+      "16": "/icons/default/16x16.png",
+      "19": "/icons/default/19x19.png",
+      "38": "/icons/default/38x38.png",
+      "48": "/icons/default/48x48.png",
+      "128": "/icons/default/128x128.png"
     },
     "default_title": "Screenshot Capture"
   },
 
-  "background" : {
+  "background": {
     "service_worker": "background/index.js"
   },
 
@@ -33,13 +33,8 @@
 
   "web_accessible_resources": [
     {
-      "matches": [
-        "<all_urls>"
-      ],
-      "resources": [
-        "/vendor/Jcrop.gif",
-        "/content/pixel.png"
-      ]
+      "matches": ["<all_urls>"],
+      "resources": ["/vendor/Jcrop.gif", "/content/pixel.png"]
     }
   ],
 
@@ -52,9 +47,5 @@
     }
   },
 
-  "permissions": [
-    "storage",
-    "scripting",
-    "activeTab"
-  ]
+  "permissions": ["storage", "scripting", "activeTab"]
 }

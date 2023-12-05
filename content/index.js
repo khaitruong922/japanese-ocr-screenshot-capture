@@ -230,8 +230,8 @@ const addPopup = (selection, text) => {
     document.documentElement.scrollTop || document.body.scrollTop;
   const scrollLeft =
     document.documentElement.scrollLeft || document.body.scrollLeft;
-  popup.style.top = selection.y + scrollTop + "px";
-  popup.style.left = selection.x + scrollLeft + "px";
+  popup.style.top = selection.y + scrollTop - 5 + "px";
+  popup.style.left = selection.x + scrollLeft - 5 + "px";
   popup.style.width = selection.w + "px";
   popup.style.height = selection.h + "px";
   popup.style.backgroundColor = "white";
@@ -250,7 +250,7 @@ const addPopup = (selection, text) => {
   const closeButton = document.createElement("div");
   closeButton.innerHTML = "✖"; // Unicode character for 'multiplication x'
   closeButton.style.position = "absolute";
-  closeButton.style.top = selection.y + scrollTop - 5 + "px";
+  closeButton.style.top = selection.y + scrollTop - 10 + "px";
   closeButton.style.left = selection.x2 + scrollLeft - 5 + "px";
   closeButton.style.display = "flex";
   closeButton.style.alignItems = "center";
