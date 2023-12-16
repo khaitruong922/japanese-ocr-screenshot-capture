@@ -31,7 +31,7 @@ var init = (done) => {
       onRelease: (e) => {
         setTimeout(() => {
           selection = null;
-        }, 500);
+        }, 1000);
       },
     },
     function ready() {
@@ -235,7 +235,7 @@ const addPopup = (selection, text) => {
   popup.style.width = selection.w + "px";
   popup.style.height = selection.h + "px";
   popup.style.backgroundColor = "white";
-  popup.style.zIndex = "10";
+  popup.style.zIndex = "10000";
   popup.style.display = "flex";
   popup.style.alignItems = "center";
   popup.style.justifyContent = "center";
@@ -263,7 +263,7 @@ const addPopup = (selection, text) => {
   closeButton.style.fontSize = "1em";
   closeButton.style.color = "black";
   closeButton.style.borderRadius = "50%";
-  closeButton.style.zIndex = "11";
+  closeButton.style.zIndex = "10001";
   closeButton.onclick = () => {
     document.body.removeChild(popup);
     document.body.removeChild(closeButton);
