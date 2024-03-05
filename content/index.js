@@ -284,7 +284,8 @@ var save = async (image, format, save, clipboard, dialog, selection) => {
         body: formData,
       });
       const data = await res.json();
-      const text = data.ocrContents[0]?.[0]?.[0]?.description || "";
+      let text = data.ocrContents[0]?.[0]?.[0]?.description || "";
+      text = text.replace(/\s/g, "");
       addPopup(selection, text);
     } catch (e) {
       console.error(e);
